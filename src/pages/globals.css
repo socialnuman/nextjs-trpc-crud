@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply text-white;
+    background: linear-gradient(
+            to right,
+            #784BA0,#2B86C5, #784BA0
+    );
+}
